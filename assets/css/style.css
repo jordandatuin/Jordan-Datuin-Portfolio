@@ -227,18 +227,28 @@ img {
 
 .home__title {
   display: block;
-  font-size: 1.5rem;
-  font-weight: 900;
-  color: #e4a109;
-  line-height: 2.5rem;
-  padding-bottom: 1rem;
   padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.home__title h1 {
+  margin: 0;
+  font-size: clamp(2.8rem, 5vw, 3.8rem);
+  line-height: 1.05;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  color: #e4a109;
+}
+
+.home__title h1 span {
+  display: block;
 }
 
 .home__career {
   display: block;
   color: #e4a109;
-  line-height: 0.1rem;
+  line-height: 1.4;
+  margin-top: 0.5rem;
   margin-bottom: 2rem;
 }
 
@@ -599,9 +609,7 @@ img {
     font-size: 1.25rem;
     margin-bottom: 0.3rem;
   }
-  .home__title {
-    font-size: 2.1rem;
-  }
+  
   .home__career {
     font-size: 1.2rem;
     margin-top: 0.5rem;
